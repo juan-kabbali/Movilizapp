@@ -1,9 +1,13 @@
 # Movilizapp
 
+This is a mobile app to share transport at College.
+
+As driver, find users that are on the way.
+As student, find a driver that drives near to you.
 
 
-Currently, the application is not working because there are not 
-servers in the cloud attending the requests of customers.
 
-The application cumplies all the functional requirements mentioned
-in the infograph "About Movilizapp v2"
+# Note
+
+Currently, the application is not working because there aren't 
+running servers.
