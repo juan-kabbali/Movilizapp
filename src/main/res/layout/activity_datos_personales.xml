@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorGrisClaroGoogle"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@color/azulOscuroBS"
+            android:textColor="@color/colorGrisClaroGoogle"
+            android:text="@string/datos_personales"
+            android:id="@+id/textView"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/foto_perfil_default"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.30"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Andres Felipe"
+            android:textSize="25dip"
+            android:textColor="@color/colorNegroGoogle"
+            android:id="@+id/nombreUsuarioGoogle"
+            android:textStyle="bold"
+            android:maxLines="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mendoza Uribe"
+            android:textColor="@color/colorNegroGoogle"
+            android:id="@+id/apellidoUsuarioGoogle"
+            android:maxLines="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:textSize="15dip"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="andres_fel.mendoza@uao.edu.co"
+            android:textColor="@color/colorNegroGoogle"
+            android:id="@+id/correoInstitucional"
+            android:maxLines="1" />
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/numero_telefono"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorNegroGoogle"
+            android:textColorHint="@color/colorHintTextoInput"
+            android:hint="Ingrese su numero móvil"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.25"
+        android:orientation="horizontal" >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/verdeBS"
+            android:text="@string/continuar"
+            android:onClick="signIn"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

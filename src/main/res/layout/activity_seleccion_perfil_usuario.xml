@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorGrisClaroGoogle"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.02"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@color/azulOscuroBS"
+            android:textColor="@color/colorGrisClaroGoogle"
+            android:text="@string/selecci_n_del_perfil"
+            android:id="@+id/textView"
+            android:textStyle="bold"
+            android:gravity="center_vertical|center_horizontal" />
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" >
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:id="@+id/rg"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pasajero_de_transporte_p_blico"
+                android:id="@+id/pasajero"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="2dp"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:src="@drawable/icon_publico"
+                android:id="@+id/imagenPasajero"
+                android:onClick="clickImagen"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/foto_del_pasajero" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conductor_de_particular"
+                android:id="@+id/conductor"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="2dp"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:onClick="clickImagen"
+                android:src="@drawable/icon_particular"
+                android:id="@+id/imagenConductor"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/foto_del_vehiculo" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.03"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finalizar"
+            android:textSize="25dip"
+            android:onClick="finalizar"
+            android:textColor="#f9f9f9"
+            android:background="#5cb85c"
+            android:id="@+id/finalizar"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

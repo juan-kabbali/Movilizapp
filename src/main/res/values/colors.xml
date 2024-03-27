@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRojoGooglePlus">#d34836</color>
+    <color name="colorGrisOscuroGoogle">#d2d2d2</color>
+    <color name="colorGrisClaroGoogle">#f1f1f1</color>
+    <color name="colorNegroGoogle">#2d2d2d</color>
+    <color name="colorHintTextoInput">#818181</color>
+    <color name="azulOscuroBS">#428bca</color>
+    <color name="azulClaroBS">#5bc0de</color>
+    <color name="verdeBS">#5cb85c</color>
+    <color name="blancoBS">#f9f9f9</color>
+    <color name="rojoBS">#d9534f</color>
+
+
+
+</resources>

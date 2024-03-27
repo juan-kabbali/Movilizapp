@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Movilizapp</string>
+    <string-array name="Tags">
+        <item>Perfil</item>
+        <item>Explorar rutas</item>
+        <item>Solicitudes</item>
+        <item>Historial</item>
+        <item>Quienes somos</item>
+    </string-array>
+
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+    <string name="headlines">Encabezados de</string>
+    <string name="datos_personales">DATOS PERSONALES</string>
+    <string name="continuar">Continuar</string>
+    <string name="logo_de_la_app">logo de la app</string>
+    <string name="iniciar_sesi_n_con_google">Iniciar sesión con Google +</string>
+    <string name="registro_del_vehiculo">REGISTRO DEL VEHICULO</string>
+    <string name="foto_por_defecto">foto por defecto</string>
+    <string name="ingrese_la_placa_mxd_148">Ingrese la placa: MXD-148</string>
+    <string name="ingrese_la_marca_mazda">Ingrese la marca: Mazda</string>
+    <string name="ingrese_la_referencia_allegro">Ingrese la referencia: Allegro</string>
+    <string name="ingrese_el_color_rojo">Ingrese el color: Rojo</string>
+    <string name="selecci_n_del_perfil">SELECCIÓN DEL PERFIL</string>
+    <string name="pasajero_de_transporte_p_blico">Pasajero de transporte público</string>
+    <string name="conductor_de_particular">Conductor de particular</string>
+    <string name="foto_del_pasajero">foto del pasajero</string>
+    <string name="foto_del_vehiculo">foto del vehiculo</string>
+
+</resources>
