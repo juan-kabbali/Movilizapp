@@ -3,9 +3,15 @@
 Movilizapp is a mobile application designed to facilitate shared transport options for college students.
 
 ## Features
-
 - **Driver**: Locate users along your route.
+<div align="center">
+  <img src="assets/wireframes/2%20User%20profile%20(Driver).png" alt="driver">
+</div>
+
 - **Student**: Connect with drivers traveling near your location.
+<div align="center">
+  <img src="assets/wireframes/1.2%20User%20profile%20(Passenger).png" alt="student">
+</div>
 
 ## Showcase Demos
 
